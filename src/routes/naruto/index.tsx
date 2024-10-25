@@ -1,6 +1,7 @@
 import QuestionCard from "@/components/common/QuestionCard";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Naruto() {
   const narutoQuestions = [
@@ -80,13 +81,15 @@ export default function Naruto() {
     setRandomQuestions(getRandomQuestions(6));
   };
 
+  const navigate = useNavigate();
+
   return (
     <div>
       <div className="grid grid-cols-3 items-center justify-center bg-zinc-100">
         <div className="flex justify-center items-center">
           <Button
             className="w-20 h-12 rounded-lg bg-orange-500 text-white shadow-lg hover:bg-orange-600"
-            onClick={() => (window.location.href = "/")}
+            onClick={() => navigate("/")}
           >
             Início
           </Button>
