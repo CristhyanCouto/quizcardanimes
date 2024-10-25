@@ -105,7 +105,7 @@ export default function Naruto() {
       </div>
       <div className="flex justify-center bg-zinc-100">
         <Button
-          className="h-20 w-96 rounded-lg bg-orange-500 text-white shadow-lg my-4 hover:bg-orange-600"
+          className="h-20 w-42 md:w-96 rounded-lg bg-orange-500 text-white shadow-lg my-4 hover:bg-orange-600"
           onClick={handleRandomClick}
         >
           Novas Perguntas

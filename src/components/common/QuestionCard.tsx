@@ -31,7 +31,7 @@ const QuestionCard: React.FC<QuestionCardProps> = (props) => {
             alt="Pergunta"
           />
           {/* Overlay para a Pergunta */}
-          <div className="absolute inset-0 bg-black/20 rounded-xl flex items-center justify-center">
+          <div className="absolute inset-0 bg-black/20 rounded-xl flex items-center justify-center cursor-pointer">
             <div className="text-center text-white bg-black/20 w-[80%] rounded-lg">
               <h1 className="text-3xl font-bold">Pergunta</h1>
               <p className="text-lg">{props.question}</p>
@@ -40,7 +40,7 @@ const QuestionCard: React.FC<QuestionCardProps> = (props) => {
         </div>
 
         {/* Back Side */}
-        <div className="absolute inset-0 h-full w-full rounded-xl bg-black/40 [transform:rotateY(180deg)] [backface-visibility:hidden] flex items-center justify-center text-center text-slate-200">
+        <div className="cursor-pointer absolute inset-0 h-full w-full rounded-xl bg-black/40 [transform:rotateY(180deg)] [backface-visibility:hidden] flex items-center justify-center text-center text-slate-200">
           <div
             className="absolute inset-0 bg-cover bg-center rounded-xl shadow-xl shadow-black/40"
             style={{ backgroundImage: `url(${props.img2})` }}

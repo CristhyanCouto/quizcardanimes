@@ -16,11 +16,11 @@ export default function Home() {
 
         <div className="flex gap-4">
           <Button onClick={() => navigate("/naruto")}
-          className="h-20 w-96 rounded-lg bg-orange-500 text-white shadow-lg my-4 hover:bg-orange-600 text-2xl">
+          className="h-20 w-40 md:w-96 rounded-lg bg-orange-500 text-white shadow-lg my-4 hover:bg-orange-600 text-2xl">
             Naruto
           </Button>
           <Button onClick={() => navigate("/one-piece")}
-          className="h-20 w-96 rounded-lg bg-orange-500 text-white shadow-lg my-4 hover:bg-orange-600 text-2xl">
+          className="h-20 w-40 md:w-96 rounded-lg bg-orange-500 text-white shadow-lg my-4 hover:bg-orange-600 text-2xl">
             One Piece
           </Button>
         </div>
