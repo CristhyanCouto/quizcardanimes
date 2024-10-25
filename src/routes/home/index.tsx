@@ -1,6 +1,9 @@
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+  const navigate = useNavigate();
+
   return (
     <div className="py-10 px-20">
       <div>
@@ -12,11 +15,11 @@ export default function Home() {
         </p>
 
         <div className="flex gap-4">
-          <Button onClick={() => window.location.href = "/naruto"}
+          <Button onClick={() => navigate("/naruto")}
           className="h-20 w-96 rounded-lg bg-orange-500 text-white shadow-lg my-4 hover:bg-orange-600 text-2xl">
             Naruto
           </Button>
-          <Button onClick={() => window.location.href = "/one-piece"}
+          <Button onClick={() => navigate("/one-piece")}
           className="h-20 w-96 rounded-lg bg-orange-500 text-white shadow-lg my-4 hover:bg-orange-600 text-2xl">
             One Piece
           </Button>
