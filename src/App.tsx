@@ -1,5 +1,5 @@
 import Home from "./routes/home/index"
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { createHashRouter, RouterProvider } from "react-router-dom"
 import NotFound from "./routes/notFound/index"
 import Naruto from "./routes/naruto"
 
@@ -15,7 +15,7 @@ const routes = [
   }
 ];
 
-const router = createBrowserRouter(routes, {basename: "/quizcardanimes"})
+const router = createHashRouter(routes);
 
 export default function App() {
   return (
