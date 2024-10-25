@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+  document.title = "Cards Quizzes";
   const navigate = useNavigate();
 
   return (
@@ -14,13 +15,13 @@ export default function Home() {
           Escolha uma categoria para começar
         </p>
 
-        <div className="flex gap-4">
+        <div className="flex flex-col justify-center gap-2 mt-10">
           <Button onClick={() => navigate("/naruto")}
-          className="h-20 w-40 md:w-96 rounded-lg bg-orange-500 text-white shadow-lg my-4 hover:bg-orange-600 text-2xl">
+          className="h-20 w-30 md:w-96 rounded-lg bg-orange-500 text-white shadow-lg my-4 hover:bg-orange-600 text-2xl">
             Naruto
           </Button>
           <Button onClick={() => navigate("/one-piece")}
-          className="h-20 w-40 md:w-96 rounded-lg bg-orange-500 text-white shadow-lg my-4 hover:bg-orange-600 text-2xl">
+          className="h-20 w-30 md:w-96 rounded-lg bg-orange-500 text-white shadow-lg my-4 hover:bg-orange-600 text-2xl">
             One Piece
           </Button>
         </div>

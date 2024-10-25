@@ -4,6 +4,9 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export default function Naruto() {
+  
+  document.title = "Quiz Naruto";
+
   const narutoQuestions = [
     {
       id: 1,
