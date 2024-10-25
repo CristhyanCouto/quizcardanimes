@@ -5,12 +5,12 @@ import Naruto from "./routes/naruto"
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/quizcardanimes",
     element: <Home />,
     errorElement: <NotFound />,
   },
   {
-    path: "/naruto",
+    path: "/quizcardanimes/naruto",
     element: <Naruto />,
   }
 ])

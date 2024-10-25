@@ -12,7 +12,7 @@ export default function Home() {
         </p>
 
         <div className="flex gap-4">
-          <Button onClick={() => window.location.href = "/naruto"}
+          <Button onClick={() => window.location.href = "/quizcardanimes/naruto"}
           className="h-20 w-96 rounded-lg bg-orange-500 text-white shadow-lg my-4 hover:bg-orange-600 text-2xl">
             Naruto
           </Button>
