@@ -3,17 +3,19 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import NotFound from "./routes/notFound/index"
 import Naruto from "./routes/naruto"
 
-const router = createBrowserRouter([
+const routes = [
   {
-    path: "/quizcardanimes",
+    path: "/",
     element: <Home />,
     errorElement: <NotFound />,
   },
   {
-    path: "/quizcardanimes/naruto",
+    path: "/naruto",
     element: <Naruto />,
   }
-])
+];
+
+const router = createBrowserRouter(routes, {basename: "/quizcardanimes"})
 
 export default function App() {
   return (

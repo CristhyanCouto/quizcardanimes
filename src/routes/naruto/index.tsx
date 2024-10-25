@@ -86,7 +86,7 @@ export default function Naruto() {
         <div className="flex justify-center items-center">
           <Button
             className="w-20 h-12 rounded-lg bg-orange-500 text-white shadow-lg hover:bg-orange-600"
-            onClick={() => (window.location.href = "/quizcardanimes")}
+            onClick={() => (window.location.href = "/")}
           >
             Início
           </Button>
