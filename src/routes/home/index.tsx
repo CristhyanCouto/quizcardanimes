@@ -15,7 +15,7 @@ export default function Home() {
           Escolha uma categoria para começar
         </p>
 
-        <div className="flex flex-col justify-center gap-2 mt-10">
+        <div className="flex flex-col md:flex-row justify-center gap-2 mt-10">
           <Button onClick={() => navigate("/naruto")}
           className="h-20 w-30 md:w-96 rounded-lg bg-orange-500 text-white shadow-lg my-4 hover:bg-orange-600 text-2xl">
             Naruto
