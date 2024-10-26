@@ -2,6 +2,7 @@ import Home from "./routes/home/index"
 import { createHashRouter, RouterProvider } from "react-router-dom"
 import NotFound from "./routes/notFound/index"
 import Naruto from "./routes/naruto"
+import OnePiece from "./routes/onePiece";
 
 const routes = [
   {
@@ -12,6 +13,10 @@ const routes = [
   {
     path: "/naruto",
     element: <Naruto />,
+  },
+  {
+    path: "/one-piece",
+    element: <OnePiece />,
   }
 ];
 

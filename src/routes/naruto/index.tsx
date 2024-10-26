@@ -65,6 +65,37 @@ export default function Naruto() {
       img1: "https://pt.quizur.com/_image?href=https%3A%2F%2Fimg.quizur.com%2Ff%2Fimg6109bb1292ebc4.85206758.jpg%3FlastEdited%3D1628027671&w=400&h=400&f=webp",
       img2: "https://static.fanfiction.com.br/userfiles/4/E/B/7/capa_10_1257198738_DediaraTobi.jpg",
     },
+    {
+      id: 9,
+      question: "Qual era o nome do irmão do madara?",
+      answer: "Izuna Uchiha",
+      img1: "https://pbs.twimg.com/media/EZiRb4jXYAAtaqt.png",
+      img2: "https://i.pinimg.com/originals/36/4d/58/364d58a6f78a113e80a84f656543de66.jpg"
+    }
+    ,
+    {
+      id: 10,
+      question: "Qual o nome da espada do susanoo do itachi?",
+      answer: "Espada de Totsuka",
+      img1: "https://pm1.aminoapps.com/6382/8cf41252cb6e2b502f199be7f9a899e3337efc58_00.jpg",
+      img2: "https://montinkantigo.s3.amazonaws.com/data/camisas/camisa-do-itachi-do-anime-naruto-5bd2509568916-estampa-303.png"
+    }
+    ,
+    {
+      id: 11,
+      question: "Qual o nome do estilo madeira?",
+      answer: "Mokuton",
+      img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDZAUxAwk_zGQxJeg8xswA0N2QC0v7YW8auw&s",
+      img2: "https://wallpapers.com/images/featured/telefone-hashirama-rxfxdnortgpvkupc.jpg"
+    }
+    ,
+    {
+      id: 12,
+      question: "Qual dos hogakes não foi revivido quando Orochimaru atacou a vila da folha?",
+      answer: "O 4° Hogake Minato Namikaze",
+      img1: "https://criticalhits.com.br/wp-content/uploads/2018/08/orochimaru-hiruzen-01.jpg",
+      img2: "https://criticalhits.com.br/wp-content/uploads/2022/03/Sarutobi-vs-Orochimaru-luta-completa-online-em-portugues.png"
+    }
   ];
 
   const getRandomQuestions = (count: number) => {
